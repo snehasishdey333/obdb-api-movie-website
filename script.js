@@ -13,8 +13,11 @@ const actorsDiv=document.getElementById("actorsDiv");
 const plotDiv=document.getElementById("plotDiv");
 const languageDiv=document.getElementById("languageDiv");
 
+//api key is changed
+//you can get your own api key here
+//http://www.omdbapi.com/#usage
 
-const API_KEY = "ac502957";
+const API_KEY = "acdc50243957";
 
 function getMovie(movieName) {
     return fetch(`https://www.omdbapi.com/?apikey=${API_KEY}&t=${movieName}`)
